@@ -1,6 +1,18 @@
 <html>
   <head>
+    <meta charset="UTF-8" />
     <title>X20 WW POC</title>
+    <style>
+      h1 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
+    </style>
   </head>
   <body style="margin:0; padding:0;color: white;">
     <div
@@ -15,18 +27,22 @@
         background-size:cover;
         margin: 20px 0 0 20px;
         padding: 0;
-        -moz-box-shadow:    inset 0 0 10px #000000;
-        -webkit-box-shadow: inset 0 0 10px #000000;
-        box-shadow:         inset 0 0 10px #000000;
+        -moz-box-shadow:    inset 0 0 20px #000000;
+        -webkit-box-shadow: inset 0 0 20px #000000;
+        box-shadow:         inset 0 0 20px #000000;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
         "
       ></div>
       <div
         id="desc"
         style="
-          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+          font-family:'Impact', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
           width: 50%;
-          height: 100vh;
+          height: 80vh;
           display: flex;
+          padding: 20px;
           flex-direction: column;
           justify-content: center;
           align-items: center;"
@@ -44,260 +60,654 @@
       {
         name: "Miyah Myles",
         email: "miyah.myles@gmail.com",
-        position: "Delivery Driver",
+        position: "Part Time",
         photo:
           "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6"
       },
       {
         name: "June Cha",
         email: "june.cha@gmail.com",
-        position: "Lead Developer",
+        position: "Marketing",
         photo: "https://randomuser.me/api/portraits/women/44.jpg"
       },
       {
         name: "Iida Niskanen",
         email: "iida.niskanen@gmail.com",
-        position: "Delivery Driver",
+        position: "Data Entry",
         photo: "https://randomuser.me/api/portraits/women/68.jpg"
       },
       {
         name: "Renee Sims",
         email: "renee.sims@gmail.com",
-        position: "Medical Assistant",
+        position: "Executive Assistant",
         photo: "https://randomuser.me/api/portraits/women/65.jpg"
       },
       {
         name: "Jonathan Nuñez",
         email: "jonathan.nuñez@gmail.com",
-        position: "Human Resources",
+        position: "Call Center Representative",
         photo: "https://randomuser.me/api/portraits/men/43.jpg"
       },
       {
         name: "Guillermo Raffaele",
         email: "guillermo.raffaele@gmail.com",
-        position: "Part Time",
+        position: "Sales",
         photo:
           "https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg"
       },
       {
         name: "Sasha Ho",
         email: "sasha.ho@gmail.com",
-        position: "Customer Service Representative",
+        position: "Marketing",
         photo:
           "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb"
       },
       {
         name: "Konsta Peura",
         email: "konsta.peura@gmail.com",
-        position: "Administrative Assistant",
+        position: "Office Assistant",
         photo: "https://randomuser.me/api/portraits/men/46.jpg"
       },
       {
         name: "Abdullah Hadley",
         email: "abdullah.hadley@gmail.com",
-        position: "Graphic Designer",
+        position: "Office Assistant",
         photo:
           "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=a72ca28288878f8404a795f39642a46f"
       },
       {
         name: "Veeti Seppanen",
         email: "veeti.seppanen@gmail.com",
-        position: "Project Manager",
+        position: "Customer Service Representative",
         photo: "https://randomuser.me/api/portraits/men/97.jpg"
-      },
-      {
-        name: "Hrvoje &#352;imi&#263;",
-        email: "hrvoje.&#352;imi&#263;@gmail.com",
-        position: "Product Designer",
-        photo:
-          "http://pbs.twimg.com/profile_images/1079706442763067392/wuaeGZnN.jpg"
-      },
-      {
-        name: "Bonnie Riley",
-        email: "bonnie.riley@gmail.com",
-        position: "Product Designer",
-        photo: "https://randomuser.me/api/portraits/women/26.jpg"
       },
       {
         name: "Zachary Levi",
         email: "zachary.levi@gmail.com",
-        position: "Call Center Representative",
+        position: "Customer Service",
         photo:
           "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNTAzMTA4OTJeQTJeQWpwZ15BbWU3MDA4NDI2Njk@._V1_UX172_CR0,0,172,256_AL_.jpg"
       },
       {
         name: "Thomas Stock",
         email: "thomas.stock@gmail.com",
-        position: "Project Manager",
+        position: "Product Designer",
         photo:
           "https://tinyfac.es/data/avatars/B0298C36-9751-48EF-BE15-80FB9CD11143-500w.jpeg"
       },
       {
+        name: "Hrvoje &#352;imi&#263;",
+        email: "hrvoje.&#352;imi&#263;@gmail.com",
+        position: "Call Center Representative",
+        photo:
+          "http://pbs.twimg.com/profile_images/1079706442763067392/wuaeGZnN.jpg"
+      },
+      {
+        name: "Bonnie Riley",
+        email: "bonnie.riley@gmail.com",
+        position: "Director",
+        photo: "https://randomuser.me/api/portraits/women/26.jpg"
+      },
+      {
         name: "Steve T. Scaife",
         email: "steve.t..scaife@gmail.com",
-        position: "Customer Service",
+        position: "Software Engineer",
         photo:
           "https://tinyfac.es/data/avatars/7D3FA6C0-83C8-4834-B432-6C65ED4FD4C3-500w.jpeg"
       },
       {
-        name: "Lilja Peltola",
-        email: "lilja.peltola@gmail.com",
-        position: "Administrative Assistant",
-        photo: "https://randomuser.me/api/portraits/women/17.jpg"
-      },
-      {
         name: "Andreas Brixen",
         email: "andreas.brixen@gmail.com",
-        position: "Marketing",
+        position: "Project Manager",
         photo:
           "http://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg"
       },
       {
+        name: "Lilja Peltola",
+        email: "lilja.peltola@gmail.com",
+        position: "Marketing",
+        photo: "https://randomuser.me/api/portraits/women/17.jpg"
+      },
+      {
         name: "Sean PJPGR Doran",
         email: "sean.pjpgr.doran@gmail.com",
-        position: "Call Center Representative",
+        position: "Lead Developer",
         photo:
           "http://pbs.twimg.com/profile_images/1055263632861343745/vIqzOHXj.jpg"
       },
       {
         name: "Elliana Palacios",
         email: "elliana.palacios@gmail.com",
-        position: "Accounting",
+        position: "Data Entry",
         photo:
           "https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=b616b2c5b373a80ffc9636ba24f7a4a9"
       },
       {
-        name: "Leah Stevens",
-        email: "leah.stevens@gmail.com",
-        position: "Medical Assistant",
-        photo: "https://randomuser.me/api/portraits/women/47.jpg"
+        name: "Eduard Franz",
+        email: "eduard.franz@gmail.com",
+        position: "Senior Developer",
+        photo: "https://randomuser.me/api/portraits/men/86.jpg"
       },
       {
-        name: "مهراد گلشن",
-        email: "مهراد.گلشن@gmail.com",
-        position: "Office Assistant",
-        photo: "https://randomuser.me/api/portraits/men/61.jpg"
+        name: "Leah Stevens",
+        email: "leah.stevens@gmail.com",
+        position: "Executive Assistant",
+        photo: "https://randomuser.me/api/portraits/women/47.jpg"
       },
       {
         name: "Britney Cooper",
         email: "britney.cooper@gmail.com",
-        position: "Product Designer",
+        position: "Executive Assistant",
         photo: "https://randomuser.me/api/portraits/women/63.jpg"
       },
       {
-        name: "Eduard Franz",
-        email: "eduard.franz@gmail.com",
-        position: "Graphic Designer",
-        photo: "https://randomuser.me/api/portraits/men/86.jpg"
+        name: "مهراد گلشن",
+        email: "مهراد.گلشن@gmail.com",
+        position: "Sales Manager",
+        photo: "https://randomuser.me/api/portraits/men/61.jpg"
       },
       {
         name: "Dianna Smiley",
         email: "dianna.smiley@gmail.com",
-        position: "Accountant",
+        position: "Administrative Assistant",
         photo:
           "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=d5849d81af587a09dbcf3f11f6fa122f"
       },
       {
         name: "Loren Spears",
         email: "loren.spears@gmail.com",
-        position: "Accounting",
+        position: "Customer Service",
         photo:
           "https://images.unsplash.com/photo-1476493279419-b785d41e38d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=61eaea85f1aa3d065400179c78163f15"
       },
       {
         name: "Chrishell Stause",
         email: "chrishell.stause@gmail.com",
-        position: "Receptionist",
+        position: "Accounting",
         photo:
           "https://images-na.ssl-images-amazon.com/images/M/MV5BODFjZTkwMjItYzRhMS00OWYxLWI3YTUtNWIzOWQ4Yjg4NGZiXkEyXkFqcGdeQXVyMTQ0ODAxNzE@._V1_UX172_CR0,0,172,256_AL_.jpg"
       },
       {
         name: "Ana De Armas",
         email: "ana.de.armas@gmail.com",
-        position: "Product Designer",
+        position: "Data Entry Clerk",
         photo:
           "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg"
       },
       {
         name: "Alexis Doreau",
         email: "alexis.doreau@gmail.com",
-        position: "Part Time",
+        position: "Manager",
         photo:
           "https://tinyfac.es/data/avatars/26CFEFB3-21C8-49FC-8C19-8E6A62B6D2E0-200w.jpeg"
       },
       {
-        name: "Lourdes Browning",
-        email: "lourdes.browning@gmail.com",
-        position: "Manager",
-        photo:
-          "https://images.unsplash.com/photo-1498529605908-f357a9af7bf5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=047fade70e80ebb22ac8f09c04872c40"
-      },
-      {
-        name: "Wyatt Morris",
-        email: "wyatt.morris@gmail.com",
-        position: "Business Analyst",
-        photo: "https://randomuser.me/api/portraits/men/91.jpg"
-      },
-      {
-        name: "Henry Cavill",
-        email: "henry.cavill@gmail.com",
-        position: "Accounting",
-        photo:
-          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNTExMzUzOF5BMl5BanBnXkFtZTgwOTI1MjA3OTE@._V1_UX172_CR0,0,172,256_AL_.jpg"
-      },
-      {
         name: "Adolfo Hess",
         email: "adolfo.hess@gmail.com",
-        position: "Office Assistant",
+        position: "Software Engineer",
         photo:
           "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=73a9df4b7bd1b330db1e903e08575ec1"
       },
       {
-        name: "Della Case",
-        email: "della.case@gmail.com",
-        position: "Accounting",
+        name: "Lourdes Browning",
+        email: "lourdes.browning@gmail.com",
+        position: "Customer Service Representative",
         photo:
-          "https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3759e09a5b9fbe53088b23c615b6312e"
-      },
-      {
-        name: "فاطمه علیزاده",
-        email: "فاطمه.علیزاده@gmail.com",
-        position: "Data Entry",
-        photo: "https://randomuser.me/api/portraits/women/21.jpg"
+          "https://images.unsplash.com/photo-1498529605908-f357a9af7bf5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=047fade70e80ebb22ac8f09c04872c40"
       },
       {
         name: "Jennifer Fritz",
         email: "jennifer.fritz@gmail.com",
-        position: "Medical Assistant",
+        position: "Lead Developer",
         photo: "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      {
+        name: "Della Case",
+        email: "della.case@gmail.com",
+        position: "Project Manager",
+        photo:
+          "https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3759e09a5b9fbe53088b23c615b6312e"
+      },
+      {
+        name: "Henry Cavill",
+        email: "henry.cavill@gmail.com",
+        position: "Lead Developer",
+        photo:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNTExMzUzOF5BMl5BanBnXkFtZTgwOTI1MjA3OTE@._V1_UX172_CR0,0,172,256_AL_.jpg"
+      },
+      {
+        name: "Wyatt Morris",
+        email: "wyatt.morris@gmail.com",
+        position: "Project Manager",
+        photo: "https://randomuser.me/api/portraits/men/91.jpg"
+      },
+      {
+        name: "فاطمه علیزاده",
+        email: "فاطمه.علیزاده@gmail.com",
+        position: "Receptionist",
+        photo: "https://randomuser.me/api/portraits/women/21.jpg"
       },
       {
         name: "Tim Schoch",
         email: "tim.schoch@gmail.com",
-        position: "Graphic Designer",
+        position: "Data Entry Clerk",
         photo:
           "http://pbs.twimg.com/profile_images/1126358830445662208/IPh6PTBx.jpg"
       },
       {
         name: "Nykyta Korotkevych",
         email: "nykyta.korotkevych@gmail.com",
-        position: "Medical Assistant",
+        position: "Human Resources",
         photo:
           "http://pbs.twimg.com/profile_images/974603248119222272/N5PLzyan.jpg"
       },
       {
         name: "Carys Metz",
         email: "carys.metz@gmail.com",
-        position: "Marketing",
+        position: "Delivery Driver",
         photo:
           "https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82"
       },
       {
         name: "Loki Bright",
         email: "loki.bright@gmail.com",
-        position: "Office Assistant",
+        position: "Accounting",
         photo:
           "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb"
+      },
+      {
+        name: "Ferdinand Karl",
+        email: "ferdinand.karl@gmail.com",
+        position: "Data Entry",
+        photo: "https://randomuser.me/api/portraits/men/78.jpg"
+      },
+      {
+        name: "Christopher Gibson",
+        email: "christopher.gibson@gmail.com",
+        position: "Medical Assistant",
+        photo: "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      {
+        name: "Andrew Kumar",
+        email: "andrew.kumar@gmail.com",
+        position: "Receptionist",
+        photo:
+          "http://pbs.twimg.com/profile_images/969073897189523456/rSuiu_Hr.jpg"
+      },
+      {
+        name: "Rodrigo Hawkins",
+        email: "rodrigo.hawkins@gmail.com",
+        position: "Executive Assistant",
+        photo:
+          "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=74daec1914d1d105202bca8a310a6a71"
+      },
+      {
+        name: "Vivianna Kiser",
+        email: "vivianna.kiser@gmail.com",
+        position: "Office Assistant",
+        photo:
+          "https://images.unsplash.com/photo-1509868918748-a554ad25f858?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3159ec467959b2aada4b75d565c270aa"
+      },
+      {
+        name: "Mario Palmer",
+        email: "mario.palmer@gmail.com",
+        position: "Marketing",
+        photo: "https://randomuser.me/api/portraits/men/33.jpg"
+      },
+      {
+        name: "Malan Alankara",
+        email: "malan.alankara@gmail.com",
+        position: "Sales",
+        photo:
+          "http://pbs.twimg.com/profile_images/953000038967468033/n4Ngwvi7.jpg"
+      },
+      {
+        name: "Zechariah Burrell",
+        email: "zechariah.burrell@gmail.com",
+        position: "Marketing",
+        photo:
+          "https://images.unsplash.com/photo-1506085452766-c330853bea50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3e378252a934e660f231666b51bd269a"
+      },
+      {
+        name: "Elizabeth Olsen",
+        email: "elizabeth.olsen@gmail.com",
+        position: "Accounting",
+        photo:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg"
+      },
+      {
+        name: "Lucrécia Caldeira",
+        email: "lucrécia.caldeira@gmail.com",
+        position: "Software Engineer",
+        photo: "https://randomuser.me/api/portraits/women/95.jpg"
+      },
+      {
+        name: "Love Grayson",
+        email: "love.grayson@gmail.com",
+        position: "Graphic Designer",
+        photo:
+          "https://images.pexels.com/photos/61100/pexels-photo-61100.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb"
+      },
+      {
+        name: "Oscar Thomsen",
+        email: "oscar.thomsen@gmail.com",
+        position: "Attorney",
+        photo: "https://randomuser.me/api/portraits/men/36.jpg"
+      },
+      {
+        name: "Noah Pierre",
+        email: "noah.pierre@gmail.com",
+        position: "Data Entry Clerk",
+        photo: "https://randomuser.me/api/portraits/men/35.jpg"
+      },
+      {
+        name: "Lyle Kauffman",
+        email: "lyle.kauffman@gmail.com",
+        position: "Data Entry Clerk",
+        photo:
+          "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb"
+      },
+      {
+        name: "Layton Diament",
+        email: "layton.diament@gmail.com",
+        position: "Senior Developer",
+        photo:
+          "http://pbs.twimg.com/profile_images/1099856449918943232/hKv3Fddh.jpg"
+      },
+      {
+        name: "Marco Sousa",
+        email: "marco.sousa@gmail.com",
+        position: "Customer Service Representative",
+        photo:
+          "https://tinyfac.es/data/avatars/1C4EEDC2-FE9C-40B3-A2C9-A038873EE692-200w.jpeg"
+      },
+      {
+        name: "Adam Driver",
+        email: "adam.driver@gmail.com",
+        position: "Customer Service",
+        photo:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BOWViYjUzOWMtMzRkZi00MjNkLTk4M2ItMTVkMDg5MzE2ZDYyXkEyXkFqcGdeQXVyODQwNjM3NDA@._V1_UY256_CR36,0,172,256_AL_.jpg"
+      },
+      {
+        name: "Fischer Garland",
+        email: "fischer.garland@gmail.com",
+        position: "Data Entry",
+        photo:
+          "https://images.unsplash.com/photo-1456327102063-fb5054efe647?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=f05c14dd4db49f08a789e6449604c490"
+      },
+      {
+        name: "Sophie French",
+        email: "sophie.french@gmail.com",
+        position: "Human Resources",
+        photo: "https://randomuser.me/api/portraits/women/76.jpg"
+      },
+      {
+        name: "Gal Gadot",
+        email: "gal.gadot@gmail.com",
+        position: "Customer Service Representative",
+        photo:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY256_CR42,0,172,256_AL_.jpg"
+      },
+      {
+        name: "Christine M. Maldonado",
+        email: "christine.m..maldonado@gmail.com",
+        position: "Human Resources",
+        photo:
+          "https://tinyfac.es/data/avatars/8B510E03-96BA-43F0-A85A-F38BB3005AF1-500w.jpeg"
+      },
+      {
+        name: "پارسا محمدخان",
+        email: "پارسا.محمدخان@gmail.com",
+        position: "Human Resources",
+        photo: "https://randomuser.me/api/portraits/men/29.jpg"
+      },
+      {
+        name: "Mia Denys",
+        email: "mia.denys@gmail.com",
+        position: "Executive Assistant",
+        photo: "https://randomuser.me/api/portraits/women/2.jpg"
+      },
+      {
+        name: "Eliana Stout",
+        email: "eliana.stout@gmail.com",
+        position: "Senior Developer",
+        photo:
+          "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=046c29138c1335ef8edee7daf521ba50"
+      },
+      {
+        name: "Stuart Clarke-Frisby",
+        email: "stuart.clarke-frisby@gmail.com",
+        position: "Project Manager",
+        photo:
+          "https://tinyfac.es/data/avatars/AEF44435-B547-4B84-A2AE-887DFAEE6DDF-200w.jpeg"
+      },
+      {
+        name: "Micheal Murphy",
+        email: "micheal.murphy@gmail.com",
+        position: "Sales Manager",
+        photo: "https://randomuser.me/api/portraits/men/95.jpg"
+      },
+      {
+        name: "Line Rolland",
+        email: "line.rolland@gmail.com",
+        position: "Project Manager",
+        photo: "https://randomuser.me/api/portraits/women/79.jpg"
+      },
+      {
+        name: "Erwan Gauthier",
+        email: "erwan.gauthier@gmail.com",
+        position: "Executive Assistant",
+        photo:
+          "https://tinyfac.es/data/avatars/BA0CB1F2-8C79-4376-B13B-DD5FB8772537-200w.jpeg"
+      },
+      {
+        name: "Jacob Ginnish",
+        email: "jacob.ginnish@gmail.com",
+        position: "Data Entry",
+        photo: "https://randomuser.me/api/portraits/men/64.jpg"
+      },
+      {
+        name: "Harold Adams",
+        email: "harold.adams@gmail.com",
+        position: "Data Entry",
+        photo: "https://randomuser.me/api/portraits/men/17.jpg"
+      },
+      {
+        name: "Monroe Bond",
+        email: "monroe.bond@gmail.com",
+        position: "Sales",
+        photo:
+          "https://images.pexels.com/photos/247885/pexels-photo-247885.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb"
+      },
+      {
+        name: "Eduardo Hernandez",
+        email: "eduardo.hernandez@gmail.com",
+        position: "Call Center Representative",
+        photo: "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      {
+        name: "Zachary Albright",
+        email: "zachary.albright@gmail.com",
+        position: "Accountant",
+        photo:
+          "https://images.unsplash.com/photo-1507120878965-54b2d3939100?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=99fbace66d1bfa48c9c6dc8afcac3aab"
+      },
+      {
+        name: "Derrick Wells",
+        email: "derrick.wells@gmail.com",
+        position: "Customer Service Representative",
+        photo: "https://randomuser.me/api/portraits/men/18.jpg"
+      },
+      {
+        name: "Pom Klementieff",
+        email: "pom.klementieff@gmail.com",
+        position: "Sales",
+        photo:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNjE5MzY5M15BMl5BanBnXkFtZTgwMDI5ODMxODE@._V1_UY256_CR98,0,172,256_AL_.jpg"
+      },
+      {
+        name: "Lucy Walker",
+        email: "lucy.walker@gmail.com",
+        position: "Sales",
+        photo: "https://randomuser.me/api/portraits/women/0.jpg"
+      },
+      {
+        name: "Emre Topaloğlu",
+        email: "emre.topaloğlu@gmail.com",
+        position: "Executive Assistant",
+        photo: "https://randomuser.me/api/portraits/men/47.jpg"
+      },
+      {
+        name: "Sophie Louise Hart",
+        email: "sophie.louise.hart@gmail.com",
+        position: "Product Designer",
+        photo:
+          "https://tinyfac.es/data/avatars/03F55412-DE8A-4F83-AAA6-D67EE5CE48DA-200w.jpeg"
+      },
+      {
+        name: "Ece Akman",
+        email: "ece.akman@gmail.com",
+        position: "Customer Service",
+        photo: "https://randomuser.me/api/portraits/women/49.jpg"
+      },
+      {
+        name: "Natasha Kirovska",
+        email: "natasha.kirovska@gmail.com",
+        position: "Human Resources",
+        photo:
+          "http://pbs.twimg.com/profile_images/1006266234181210117/oedmUmVc.jpg"
+      },
+      {
+        name: "Carmen Velasco",
+        email: "carmen.velasco@gmail.com",
+        position: "Sales Manager",
+        photo: "https://randomuser.me/api/portraits/women/31.jpg"
+      },
+      {
+        name: "مهدي کوتی",
+        email: "مهدي.کوتی@gmail.com",
+        position: "Sales",
+        photo: "https://randomuser.me/api/portraits/men/22.jpg"
+      },
+      {
+        name: "Ash",
+        email: "ash@gmail.com",
+        position: "Customer Service",
+        photo:
+          "https://tinyfac.es/data/avatars/A7299C8E-CEFC-47D9-939A-3C8CA0EA4D13-200w.jpeg"
+      },
+      {
+        name: "Joshua Sisco",
+        email: "joshua.sisco@gmail.com",
+        position: "Customer Service Representative",
+        photo:
+          "https://tinyfac.es/data/avatars/282A12CA-E0D7-4011-8BDD-1FAFAAB035F7-200w.jpeg"
+      },
+      {
+        name: "Kaushal Panchal",
+        email: "kaushal.panchal@gmail.com",
+        position: "Marketing",
+        photo:
+          "http://pbs.twimg.com/profile_images/1068045383606005761/VxDQx_gA.jpg"
+      },
+      {
+        name: "Elena Satine",
+        email: "elena.satine@gmail.com",
+        position: "Manager",
+        photo:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5ODk2NTI2Nl5BMl5BanBnXkFtZTgwNzIyMDA4MTE@._V1_UY256_CR6,0,172,256_AL_.jpg"
+      },
+      {
+        name: "الینا كامياران",
+        email: "الینا.كامياران@gmail.com",
+        position: "Administrative Assistant",
+        photo: "https://randomuser.me/api/portraits/women/82.jpg"
+      },
+      {
+        name: "Isabel Kirkland",
+        email: "isabel.kirkland@gmail.com",
+        position: "Graphic Designer",
+        photo:
+          "https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb"
+      },
+      {
+        name: "Robin Papa",
+        email: "robin.papa@gmail.com",
+        position: "Customer Service Representative",
+        photo:
+          "http://pbs.twimg.com/profile_images/669512187778498560/L7wQctBt.jpg"
+      },
+      {
+        name: "Sheyra",
+        email: "sheyra@gmail.com",
+        position: "Business Analyst",
+        photo:
+          "http://pbs.twimg.com/profile_images/834493671785525249/XdLjsJX_.jpg"
+      },
+      {
+        name: "Callie",
+        email: "callie@gmail.com",
+        position: "Sales Manager",
+        photo:
+          "http://pbs.twimg.com/profile_images/952318165941477376/e-3MyGW3.jpg"
+      },
+      {
+        name: "آرمین مرادی",
+        email: "آرمین.مرادی@gmail.com",
+        position: "Accountant",
+        photo: "https://randomuser.me/api/portraits/men/42.jpg"
+      },
+      {
+        name: "Antonin Guillot",
+        email: "antonin.guillot@gmail.com",
+        position: "Clerical",
+        photo: "https://randomuser.me/api/portraits/men/80.jpg"
+      },
+      {
+        name: "Brantlee Adair",
+        email: "brantlee.adair@gmail.com",
+        position: "Delivery Driver",
+        photo:
+          "https://images.unsplash.com/photo-1495147334217-fcb3445babd5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=7dc81c222437ff6fed90bfb04c491d6f"
+      },
+      {
+        name: "Ingrid Castro",
+        email: "ingrid.castro@gmail.com",
+        position: "Project Manager",
+        photo:
+          "http://pbs.twimg.com/profile_images/968441632138948609/GfWweiGR.jpg"
+      },
+      {
+        name: "Sarah Steiner",
+        email: "sarah.steiner@gmail.com",
+        position: "Delivery Driver",
+        photo: "https://randomuser.me/api/portraits/women/48.jpg"
+      },
+      {
+        name: "فاطمه زهرا سالاری",
+        email: "فاطمه.زهرا.سالاری@gmail.com",
+        position: "Manager",
+        photo: "https://randomuser.me/api/portraits/women/91.jpg"
+      },
+      {
+        name: "Kate Morrison",
+        email: "kate.morrison@gmail.com",
+        position: "Accountant",
+        photo: "https://randomuser.me/api/portraits/women/57.jpg"
+      },
+      {
+        name: "Devon",
+        email: "devon@gmail.com",
+        position: "Manager",
+        photo:
+          "http://pbs.twimg.com/profile_images/1063204281375834112/6h0HeYG_.jpg"
+      },
+      {
+        name: "Silvio Bompan",
+        email: "silvio.bompan@gmail.com",
+        position: "Data Entry Clerk",
+        photo:
+          "http://pbs.twimg.com/profile_images/953658232517652480/Xp0NB-TL.jpg"
       }
     ];
 
@@ -305,13 +715,13 @@
     document.getElementById("picture").style.backgroundImage =
       "url(" + arr[i].photo + ")";
     document.getElementById("desc").innerHTML =
-      "<h2>" + arr[i].name + "</h2>" + "<h3>" + arr[i].email + "</h3>";
+      "<h1>Welcome</h1><h2>" + arr[i].name + "</h2>"; // + "<h3>" + arr[i].email + "</h3>";
     i += 1;
     setInterval(() => {
       document.getElementById("picture").style.backgroundImage =
         "url(" + arr[i].photo + ")";
       document.getElementById("desc").innerHTML =
-        "<h2>" + arr[i].name + "</h2>" + "<h3>" + arr[i].email + "</h3>";
+        "<h1>Welcome</h1><h2>" + arr[i].name + "</h2>"; // + "<h3>" + arr[i].email + "</h3>";
       i += 1;
       if (i >= arr.length) i = 0;
     }, 6000);
